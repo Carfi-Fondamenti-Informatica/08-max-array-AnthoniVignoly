@@ -1,9 +1,9 @@
 #include <iostream>
-#include 
+#include "lib.h"
 using namespace std;
 
 int main(){
-    int dimensione;
+     int dimensione;
     cin >> dimensione;
     float vettore[dimensione];
     cout << funzione(vettore,dimensione) << endl;
