@@ -1,10 +1,9 @@
-#include "lib.h"
 #include <iostream>
-#include <cmath>
+#include "lib.h"
 using namespace std;
 
 int funzione( float numeri[], int dimensione){
-    float max=0-100000;
+    float max=0-1;
     for (int i=0; i<dimensione; i++){
         cin >> numeri[i];
     }
